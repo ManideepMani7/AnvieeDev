@@ -1,0 +1,47 @@
+.Project-fotter-section {
+    padding: 30px
+}
+
+.Project-fotter-section ul {
+    font-size: 14px;
+    color: #8A8C95;
+    padding-left: 17px;
+}
+
+.Project-fotter-section ul li {
+    margin-bottom: 6px;
+}
+
+.Project-fotter-section .list-style-none {
+    list-style: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.Project-fotter-section .footer-header {
+    color: #47536E;
+    margin-bottom: 20px;
+}
+
+.Project-fotter-section .fotter-subText {
+    color: #47536E;
+}
+
+.Project-fotter-section .footer-description {
+    font-size: 14px;
+    color: #8A8C95;
+    max-width: 350px;
+    margin-bottom: 4px;
+}
+
+.Project-fotter-section .social-media-icons {
+    background-color: #47536e;
+    margin: 5px 10px;
+    padding: 10px;
+    border-radius: 50%
+}
+
+.Project-fotter-section .footer-section {
+    margin-right: 40px
+}
+.aboutUs-Section .list-item-heading{margin: 0px !important;margin-top: 22px !important}

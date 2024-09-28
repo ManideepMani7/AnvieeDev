@@ -1,0 +1,111 @@
+/* General section styling */
+.section-custom {
+    background-color: #f8f9fa; /* Light gray background color */
+    padding: 2rem 0; /* Vertical padding */
+  }
+  
+  /* Container styling */
+  .container-custom {
+    background-color: #ffffff; /* White background color */
+    max-width: 80rem; /* Maximum width */
+    padding: 1.5rem; /* Padding on all sides */
+    margin: 0 auto; /* Center horizontally */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 0.5rem; /* Rounded corners */
+  }
+  
+  .dark .container-custom {
+    background-color: #2d3748; /* Dark mode background color */
+  }
+  
+  /* Heading styling */
+  .heading-custom {
+    font-size: 2rem; /* Font size */
+    font-weight: bold; /* Bold text */
+    color: #333333; /* Dark text color */
+    margin-bottom: 1rem; /* Margin-bottom */
+  }
+  
+  @media (min-width: 1024px) {
+    .heading-custom {
+      font-size: 2.25rem; /* Larger font size on large screens */
+    }
+  }
+  
+  .dark .heading-custom {
+    color: #ffffff; /* White text color for dark mode */
+  }
+  
+  /* Paragraph styling */
+  .paragraph-custom {
+    color: #6c757d; /* Medium gray text color */
+    line-height: 1.75; /* Increased line height */
+    margin-bottom: 2rem; /* Margin-bottom */
+  }
+  
+  .dark .paragraph-custom {
+    color: #e2e8f0; /* Light gray text color for dark mode */
+  }
+  
+  /* Button styling */
+  .button-custom {
+    background-color: #4f46e5; /* Indigo background color */
+    color: #ffffff; /* White text color */
+    font-size: 1rem; /* Font size */
+    font-weight: 600; /* Semi-bold font weight */
+    border: none; /* Remove default border */
+    border-radius: 0.5rem; /* Rounded corners */
+    padding: 0.5rem 1rem; /* Padding */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+    text-align: center; /* Center text */
+    display: inline-block; /* Inline-block display */
+  }
+  
+  .button-custom:hover {
+    background-color: #4338ca; /* Darker background on hover */
+  }
+  
+  .button-custom:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 0 4px rgba(72, 85, 99, 0.5); /* Custom focus ring */
+  }
+  
+  /* List item styling */
+  .list-item-custom {
+    display: flex; /* Flex layout */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 2rem; /* Margin-bottom */
+  }
+  
+  /* Icon circle styling */
+  .icon-circle {
+    background-color: #e0f2fe; /* Light blue background */
+    color: #0284c7; /* Blue text color */
+    border-radius: 50%; /* Circle shape */
+    width: 4rem; /* Width */
+    height: 4rem; /* Height */
+    display: flex; /* Flex layout */
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+    font-size: 1.5rem; /* Font size */
+    font-weight: bold; /* Bold text */
+  }
+  
+  /* Heading in list items */
+  .list-item-heading {
+    font-size: 1.25rem; /* Font size for heading */
+    font-weight: 600; /* Semi-bold font weight */
+    color: #333333; /* Dark text color */
+    margin-bottom: 1rem; /* Margin-bottom */
+  }
+  
+  .dark .list-item-heading {
+    color: #ffffff; /* White text color for dark mode */
+  }
+  
+  /* Paragraph in list items */
+  .list-item-paragraph {
+    color: #6c757d; /* Medium gray text color */
+    line-height: 1.75; /* Increased line height */
+  }
+  

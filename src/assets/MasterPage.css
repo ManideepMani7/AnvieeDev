@@ -1,0 +1,171 @@
+.header-container {
+    box-shadow: 0px 5px 25px 10px rgba(0, 0, 0, 0.06);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container .default-header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.hamburger-toggle {
+    cursor: pointer;
+}
+
+.header-right-icons {
+    display: flex;
+    align-items: center;
+}
+
+.header-right-icons a {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.search-toggle {
+    margin-right: 20px;
+}
+
+.search-header-container {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    padding: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    display: none; /* Hidden by default; show when search is toggled */
+}
+
+.search-header-container input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.search-header-container .close-search-toggle {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-left: 20px; /* Space between hamburger and logo */
+}
+
+.logo {
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Ensure logo is square */
+    border-radius: 50%; /* Makes the logo round */
+    object-fit: cover; /* Ensures the image covers the area of the circle */
+}
+.card-container {
+    width: 250px; /* Reduced width */
+    border-radius: 8px; /* Slightly smaller border-radius */
+    border: 1px solid #ddd; /* Slightly lighter border color */
+    overflow: hidden; /* Ensures rounded corners on the image */
+}
+
+.card-image {
+    height: 150px; /* Reduced height */
+    width: 100%;
+    object-fit: cover; /* Ensures the image covers the area */
+    border-bottom: 1px solid #ddd; /* Optional: adds a border between image and content */
+}
+
+.card-content {
+    padding: 16px; /* Reduced padding */
+}
+
+.card-title {
+    font-size: 1rem; /* Reduced font size */
+    font-weight: 600; /* Maintain bold font */
+}
+
+.card-text {
+    margin-top: 1rem; /* Adjusted margin-top */
+    font-size: 0.875rem; /* Reduced font size */
+    color: #4a4a4a; /* Slightly darker gray */
+}
+
+.card-button {
+    margin-top: 1rem; /* Adjusted margin-top */
+    border-radius: 4px; /* Slightly smaller border-radius */
+    background-color: #000; /* Black background */
+    padding: 8px 16px; /* Adjusted padding */
+    font-size: 0.875rem; /* Reduced font size */
+    font-weight: 600; /* Maintain bold font */
+    color: #fff; /* White text color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.card-button:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Slightly lighter black on hover */
+}
+
+.carousel-item img{height: 100vh;object-fit: cover;}
+.header-container{position: fixed;top: 0px;background-color: #fff !important;z-index: 9;}
+
+.landingPage-Carousel .carousel-inner{padding-top: 90px}
+.landingPage-Carousel .carousel-caption{padding-bottom: 150px}
+.landingPage-Carousel .carousel-caption h5{color: #fff;font-size: 34px;font-weight: 700;text-align: left;margin-bottom: 15px;}
+.landingPage-Carousel .carousel-caption p{color: #fff;text-align: left;font-size: 20px;font-weight: 600;}
+.landingPage-Carousel .carousel-indicators{bottom: 100px;left: -760px !important}
+.landingPage-Carousel .carousel-indicators button{background-color: #fff !important;width: 20px !important;height: 5px !important;}
+.landingPage-Carousel .carousel-indicators button.active{background-color: #fff !important;width: 40px !important}
+.bg-primary-section{background-color: #efe2f5}
+.shopping-section{padding: 30px;padding-bottom: 50px;}
+.shopping-section .card-container{background-color: #fff;}
+.shopping-section .card-container img{object-fit: contain}
+.shopping-section .card-button{background-color: #650094;width: 100%;margin-top: 0px;border-top-left-radius: 0px;border-top-right-radius: 0px}
+.team-section{padding: 73px;margin-top: 30px;}
+.team-section .card{padding: 2rem;background-color: #e6d9eb !important;margin-bottom: 20px}
+.team-section .card-img-top{height: 250px !important;object-fit: contain !important;}
+.team-section .card-img-overlay {height: fit-content;margin-top: auto;background-image: linear-gradient(to right, #e6d9eb , #e6d9eb3b);padding:5px 20px!important}
+.team-section .card-img-overlay .card-text{margin: 2px 0px;color: #6d6d6d;font-size: 12px;}
+.team-section .card-img-overlay .card-title {margin: 0px;font-weight: 500;color: #000;font-size: 16px}
+.footer-section ul{list-style: disc;}
+
+@font-face{
+	font-family: "RubikRegular";
+    src: url("../assets/fonts/Rubik-Regular.ttf");
+}
+@font-face{
+	font-family: "RubikMedium";
+    src: url("../assets/fonts/Rubik-Medium.ttf");
+}
+@font-face{
+	font-family: "RubikSemiBold";
+    src: url("../assets/fonts/Rubik-SemiBold.ttf");
+}
+@font-face{
+	font-family: "RubikBold";
+    src: url("../assets/fonts/Rubik-Bold.ttf");
+}
+.Rubik2R {
+	font-family: RubikRegular !important;
+}
+.Rubik2M {
+	font-family: RubikMedium !important;
+}
+.Rubik2SB {
+	font-family: RubikSemiBold !important;
+}
+.Rubik2B {
+	font-family: RubikBold !important;
+}
+
+body{
+    font-size: 14px;
+    font-family: RubikRegular;
+}
+
