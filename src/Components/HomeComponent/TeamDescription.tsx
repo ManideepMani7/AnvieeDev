@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Card, Col, Container, Row } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 import Docimg1 from '../../assets/DocImg/DocImg1.jpg'
 import Docimg2 from '../../assets/DocImg/DocImg2.jpg'
 import Docimg3 from '../../assets/DocImg/DocImg3.jpg'
